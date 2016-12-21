@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Joe's Simple Sidebar</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+        <div>          
+            <div>
+                <li class="sidebar-brand">
+                    <img src="img/IMG_0003.jpg" alt="Exploding pyramid">
+                </li>
+            </div>
+                <div>
+                     <ul class="sidebar-nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="Mypage2.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Mypage3.html">Photos</a>
+                        </li>
+                        <li>
+                            <a href="Mypage1.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+  
+  	
+  	  		<div class="container, pagecontent">
+        <div class="row"
+    			<h1> This is my frst web page</h1>
+    			<h2> By: Joe Danforth</h2>
+    			<br><br>
+  			   <img src="img/joepic.jpg" alt="Joe Danforth" width="720px" height="200px">
+    			<h2> If there are eight characters to each letter, how many letters are in the message?</h2>
+    			<br>
+    			<form>
+    				<input type="radio" name="Your guess" value= "1">1<br>
+    				<input type="radio" name="Your guess" value= "3">3<br>
+    				<input type="radio" name="Your guess" value= "8">8
+    			</form>
+    			<h2>Did you check a box?</h2>
+    			<form>
+    				<input type="checkbox" name="answer1" value="yes"> Yes<br>
+    				<input type="checkbox" name="answer2" value="no"> No
+    			</form>
+    			<br><br>
+    			<form action="Mypage2.html">
+    				<input type="submit" value="Go to page 2" />
+    			</form>
+        </div>  
+  		</div>
+      	 <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+  </body>
