@@ -1,13 +1,8 @@
 .sidebar-nav{
 	margin-top: 130px;
 }
-.row{
-	width: 700px;
-}
-.img-responsive{
-	max-width: 400px;
-	min-height: 400px;
-}
+
+
 #grad{
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, cyan, blue); /* For Safari 5.1 to 6.0 */
