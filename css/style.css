@@ -15,7 +15,7 @@
 }	
 .row{
   margin-top: 20px;
-  margin-left: auto;
+  margin-left: -140px;
   margin-right: auto;
-  min-width: 400px;
+  min-width: 390px;
 }
