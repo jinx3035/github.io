@@ -15,3 +15,9 @@
   background: -moz-linear-gradient(bottom right, cyan, blue); /* For Firefox 3.6 to 15 */
   background: linear-gradient(bottom right, cyan, blue); /* Standard syntax */
 }
+#background1{
+	background-color: black;
+}
+.color1{
+	color: red;
+}

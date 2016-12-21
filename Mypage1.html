@@ -23,21 +23,20 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
-<body>
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-        <div>          
-            <div>
-                <li class="sidebar-brand">
-                    <img src="img/IMG_0003.jpg" alt="Exploding pyramid">
-                </li>
-            </div>
-                <div>
+    </head>
+    <body id="background1" class="color1">
+        <div id="wrapper">
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <div>          
+                    <div>
+                        <li class="sidebar-brand">
+                            <img src="img/IMG_0003.jpg" alt="Exploding pyramid">
+                        </li>
+                    </div>
+                    <div>
                      <ul class="sidebar-nav">
                         <li>
                             <a href="index.html">Home</a>
@@ -57,42 +56,44 @@
         </div>
         <!-- /#sidebar-wrapper -->
 
-  
-  	
-  	  		<div class="container, pagecontent">
-        <div class="row"
-    			<h1> This is my frst web page</h1>
-    			<h2> By: Joe Danforth</h2>
-    			<br><br>
-  			   <img src="img/devcode.jpg" alt="Joe Danforth" width="720px" height="200px">
-    			<h2> If there are eight characters to each letter, how many letters are in the message?</h2>
-    			<br>
-    			<form>
-    				<input type="radio" name="Your guess" value= "1">1<br>
-    				<input type="radio" name="Your guess" value= "3">3<br>
-    				<input type="radio" name="Your guess" value= "8">8
-    			</form>
-    			<h2>Did you check a box?</h2>
-    			<form>
-    				<input type="checkbox" name="answer1" value="yes"> Yes<br>
-    				<input type="checkbox" name="answer2" value="no"> No
-    			</form>
-    			<br><br>
-    			<form action="Mypage2.html">
-    				<input type="submit" value="Go to page 2" />
-    			</form>
+
+
+        <div class="container, pagecontent">
+            <div class="row">
+        <h1> This is my frst web page.</h1>
+
+        <h2> By: Joe Danforth</h2>
+              <br><br>
+              <img src="img/devcode.jpg" alt="Joe Danforth" width="720px" height="200px">
+              <h2>Lets have some fun.</h2>
+              <br>
+            <form>
+                <input type="radio" name="Your guess" value= "1">1<br>
+                <input type="radio" name="Your guess" value= "3">3<br>
+                <input type="radio" name="Your guess" value= "8">8
+            </form>
+        <h2>Did you check a box?</h2>
+            <form>
+                <input type="checkbox" name="answer1" value="yes"> Yes<br>
+                <input type="checkbox" name="answer2" value="no"> No
+            </form>
+            <br><br>
+            <form action="Mypage2.html">
+                <input type="submit" value="Go to page 2" />
+            </form>
         </div>  
-  		</div>
-      	 <script src="js/jquery.js"></script>
+    </div>
+    
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-  </body>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
