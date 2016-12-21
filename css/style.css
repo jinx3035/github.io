@@ -1,8 +1,6 @@
 .sidebar-nav{
 	margin-top: 130px;
 }
-
-
 #grad{
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, cyan, blue); /* For Safari 5.1 to 6.0 */
@@ -14,6 +12,9 @@
 .color1{
 	color: red;
 	text-shadow: .5px .5px 5px blue;
+}	
+.row{
+  margin-right: -15px;
+  margin-left: -15px;
+  min-width: 480px;
 }
-	
-
