@@ -10,91 +10,45 @@
     <meta name="author" content="">
 
     <title>Joe's website</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">   
+    <link href="css/mynavbar.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body id="grad">
 
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-        <div>          
-            <div class="sidebar-brand">
-                 
-                    <img src="img/IMG_0003.jpg" alt="Exploding pyramid">
-                
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="index.html">Joe Website</a>
+         </div>
+         <div id="navbar" class="collapse navbar-collapse">
+           <ul class="nav navbar-nav">
+             <li class="active"><a href="index.html"> Home</a></li>
+             <li class="active"><a href="aboutme.html"> About</a></li>
+             <li class="active"><a href="photos.html">Photos</a></li>
+             <li class="active"><a href="test.html">Test</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </nav>
+        <div class="container row">
+            <div class="fit">
+                <h1>This is my homepage.</h1>
+                    <p>This webpage has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button above, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                    <p>I used a bootstrap template to provide structure and help get me started. </p>
             </div>
-                <div>
-                     <ul class="sidebar-nav">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="Mypage2.html">About</a>
-                        </li>
-                        <li>
-                            <a href="Mypage3.html">Photos</a>
-                        </li>
-                        <li>
-                            <a href="Mypage1.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div  class="container-page-wrapper">
-            <div class="container-fluid">
-                <div>
-                    <div class="row">
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                        <h1>This is my homepage.</h1>
-                            <p>This webpage has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button above, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                            <p>I used a bootstrap template to provide structure and help get me started. </p>
-                        <div>
-                            <img src="img/workpic.jpg" alt="Joe at work" class="img-responsive">
-                        </div>
-                    </div>
-
-                </div>
+            <div>
+                <img src="img/workpic.jpg" alt="Joe at work" class="img-responsive">
             </div>
         </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
 </body>
-
 </html>
